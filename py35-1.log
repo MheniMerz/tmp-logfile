@@ -1,0 +1,294 @@
+actionid: py35
+msg: getenv
+cmdargs: ['/home/mnm13/nova/.tox/py35/bin/pip', 'install', '-chttps://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt', '-r/home/mnm13/nova/test-requirements.txt']
+
+Ignoring jsbeautifier: markers 'python_version == "3.4"' don't match your environment
+Ignoring hyperframe: markers 'python_version == "3.4"' don't match your environment
+Ignoring cssutils: markers 'python_version == "3.4"' don't match your environment
+Ignoring kaitaistruct: markers 'python_version == "3.4"' don't match your environment
+Ignoring unicodecsv: markers 'python_version == "2.7"' don't match your environment
+Ignoring pathlib: markers 'python_version == "2.7"' don't match your environment
+Ignoring tornado: markers 'python_version == "3.4"' don't match your environment
+Ignoring backports.ssl-match-hostname: markers 'python_version == "2.7"' don't match your environment
+Ignoring ruamel.yaml: markers 'python_version == "3.4"' don't match your environment
+Ignoring html2text: markers 'python_version == "3.4"' don't match your environment
+Ignoring funcsigs: markers 'python_version == "2.7"' don't match your environment
+Ignoring dnspython3: markers 'python_version == "3.4"' don't match your environment
+Ignoring hpack: markers 'python_version == "3.4"' don't match your environment
+Ignoring brotlipy: markers 'python_version == "3.4"' don't match your environment
+Ignoring mypy: markers 'python_version == "3.4"' don't match your environment
+Ignoring urwid: markers 'python_version == "3.4"' don't match your environment
+Ignoring singledispatch: markers 'python_version == "2.7"' don't match your environment
+Ignoring thriftpy: markers 'python_version == "2.7"' don't match your environment
+Ignoring argh: markers 'python_version == "3.4"' don't match your environment
+Ignoring weakrefmethod: markers 'python_version == "2.7"' don't match your environment
+Ignoring blinker: markers 'python_version == "3.4"' don't match your environment
+Ignoring typed-ast: markers 'python_version == "3.4"' don't match your environment
+Ignoring h2: markers 'python_version == "3.4"' don't match your environment
+Ignoring mitmproxy: markers 'python_version == "3.4"' don't match your environment
+Ignoring EditorConfig: markers 'python_version == "3.4"' don't match your environment
+Ignoring ndg-httpsclient: markers 'python_version == "2.7"' don't match your environment
+Ignoring functools32: markers 'python_version == "2.7"' don't match your environment
+Ignoring watchdog: markers 'python_version == "3.4"' don't match your environment
+Ignoring pathtools: markers 'python_version == "3.4"' don't match your environment
+Ignoring qpid-python: markers 'python_version == "2.7"' don't match your environment
+Ignoring scandir: markers 'python_version == "2.7"' don't match your environment
+Ignoring futures: markers 'python_version == "2.7"' don't match your environment
+Ignoring happybase: markers 'python_version == "2.7"' don't match your environment
+Ignoring sortedcontainers: markers 'python_version == "3.4"' don't match your environment
+Collecting sphinxcontrib-actdiag===0.8.5 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 19))
+  Using cached sphinxcontrib_actdiag-0.8.5-py2.py3-none-any.whl
+Collecting os-api-ref===1.5.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 23))
+Collecting osprofiler===1.15.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 26))
+Collecting pbr===3.1.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 43))
+  Using cached pbr-3.1.1-py2.py3-none-any.whl
+Collecting fixtures===3.0.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 57))
+  Using cached fixtures-3.0.0-py2.py3-none-any.whl
+Collecting ddt===1.1.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 74))
+  Using cached ddt-1.1.1-py2.py3-none-any.whl
+Collecting psycopg2===2.7.3.2 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 82))
+  Using cached psycopg2-2.7.3.2-cp35-cp35m-manylinux1_x86_64.whl
+Collecting oslotest===3.2.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 118))
+  Using cached oslotest-3.2.0-py2.py3-none-any.whl
+Collecting netaddr===0.7.19 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 121))
+  Using cached netaddr-0.7.19-py2.py3-none-any.whl
+Collecting reno===2.7.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 151))
+Collecting whereto===0.4.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 158))
+  Using cached whereto-0.4.0-py3-none-any.whl
+Collecting python-subunit===1.2.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 159))
+  Using cached python_subunit-1.2.0-py2.py3-none-any.whl
+Collecting mock===2.0.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 163))
+  Using cached mock-2.0.0-py2.py3-none-any.whl
+Collecting PyYAML===3.12 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 164))
+Collecting requests-mock===1.4.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 174))
+  Using cached requests_mock-1.4.0-py2.py3-none-any.whl
+Collecting mox3===0.24.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 177))
+  Using cached mox3-0.24.0-py2.py3-none-any.whl
+Collecting os-client-config===1.29.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 187))
+  Using cached os_client_config-1.29.0-py2.py3-none-any.whl
+Collecting requests===2.18.4 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 193))
+  Using cached requests-2.18.4-py2.py3-none-any.whl
+Collecting appdirs===1.4.3 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 208))
+  Using cached appdirs-1.4.3-py2.py3-none-any.whl
+Collecting coverage===4.4.2 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 238))
+  Using cached coverage-4.4.2-cp35-cp35m-manylinux1_x86_64.whl
+Collecting gabbi===1.40.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 245))
+  Using cached gabbi-1.40.0-py2.py3-none-any.whl
+Collecting sphinxcontrib-seqdiag===0.8.5 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 270))
+  Using cached sphinxcontrib_seqdiag-0.8.5-py2.py3-none-any.whl
+Collecting stestr===1.1.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 278))
+Collecting oslo.vmware===2.26.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 288))
+  Using cached oslo.vmware-2.26.0-py2.py3-none-any.whl
+Collecting testscenarios===0.5.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 299))
+  Using cached testscenarios-0.5.0-py2.py3-none-any.whl
+Collecting blockdiag===1.5.3 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 314))
+  Using cached blockdiag-1.5.3-py2.py3-none-any.whl
+Collecting testtools===2.3.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 315))
+  Using cached testtools-2.3.0-py2.py3-none-any.whl
+Collecting idna===2.6 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 331))
+  Using cached idna-2.6-py2.py3-none-any.whl
+Collecting testrepository===0.0.20 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 352))
+Collecting seqdiag===0.9.5 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 358))
+  Using cached seqdiag-0.9.5-py2.py3-none-any.whl
+Collecting Sphinx===1.6.5 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 362))
+  Using cached Sphinx-1.6.5-py2.py3-none-any.whl
+Collecting openstackdocstheme===1.18.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 366))
+  Using cached openstackdocstheme-1.18.1-py2.py3-none-any.whl
+Collecting PyMySQL===0.8.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 371))
+  Using cached PyMySQL-0.8.0-py2.py3-none-any.whl
+Collecting python-barbicanclient===4.6.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 379))
+Collecting stevedore===1.28.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 386))
+  Using cached stevedore-1.28.0-py2.py3-none-any.whl
+Collecting six===1.11.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 412))
+  Using cached six-1.11.0-py2.py3-none-any.whl
+Collecting dulwich===0.18.6 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 415))
+Collecting requestsexceptions===1.4.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 422))
+  Using cached requestsexceptions-1.4.0-py2.py3-none-any.whl
+Collecting testresources===2.0.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 423))
+  Using cached testresources-2.0.1-py2.py3-none-any.whl
+Collecting python-ironicclient===2.2.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 429))
+  Using cached python_ironicclient-2.2.0-py2.py3-none-any.whl
+Collecting python-pcre===0.7 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 439))
+  Using cached python-pcre-0.7.tar.gz
+Collecting wsgi-intercept===1.6.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 448))
+Collecting future===0.16.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 457))
+Collecting keystoneauth1===3.4.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 477))
+  Using cached keystoneauth1-3.4.0-py2.py3-none-any.whl
+Collecting jsonschema===2.6.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 499))
+  Using cached jsonschema-2.6.0-py2.py3-none-any.whl
+Collecting Babel===2.5.3 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 505))
+  Using cached Babel-2.5.3-py2.py3-none-any.whl
+Collecting oslo.utils===3.35.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 523))
+  Using cached oslo.utils-3.35.0-py2.py3-none-any.whl
+Collecting colorama===0.3.9 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 532))
+  Using cached colorama-0.3.9-py2.py3-none-any.whl
+Collecting pytz===2017.3 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 534))
+  Using cached pytz-2017.3-py2.py3-none-any.whl
+Collecting actdiag===0.5.4 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 536))
+  Using cached actdiag-0.5.4-py2.py3-none-any.whl
+Collecting hacking!=0.13.0,<0.14,>=0.12.0 (from -r /home/mnm13/nova/test-requirements.txt (line 5))
+  Using cached hacking-0.12.0-py2.py3-none-any.whl
+Collecting bandit>=1.1.0 (from -r /home/mnm13/nova/test-requirements.txt (line 26))
+  Using cached bandit-1.4.0-py2.py3-none-any.whl
+Collecting WebOb===1.7.4 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 18))
+  Using cached WebOb-1.7.4-py2.py3-none-any.whl
+Collecting oslo.concurrency===3.25.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 24))
+  Using cached oslo.concurrency-3.25.0-py2.py3-none-any.whl
+Collecting extras===1.0.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 146))
+  Using cached extras-1.0.0-py2.py3-none-any.whl
+Collecting chardet===3.0.4 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 3))
+  Using cached chardet-3.0.4-py2.py3-none-any.whl
+Collecting certifi===2018.1.18 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 39))
+  Using cached certifi-2018.1.18-py2.py3-none-any.whl
+Collecting urllib3===1.22 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 155))
+  Using cached urllib3-1.22-py2.py3-none-any.whl
+Collecting pytest===3.3.2 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 32))
+  Using cached pytest-3.3.2-py2.py3-none-any.whl
+Collecting jsonpath-rw-ext===1.1.3 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 49))
+  Using cached jsonpath_rw_ext-1.1.3-py2.py3-none-any.whl
+Collecting suds-jurko===0.6 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 95))
+Collecting oslo.i18n===3.19.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 48))
+  Using cached oslo.i18n-3.19.0-py2.py3-none-any.whl
+Collecting lxml===4.1.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 29))
+  Using cached lxml-4.1.1-cp35-cp35m-manylinux1_x86_64.whl
+Collecting eventlet===0.20.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 142))
+  Using cached eventlet-0.20.0-py2.py3-none-any.whl
+Collecting funcparserlib===0.3.6 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 213))
+Collecting Pillow===5.0.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 87))
+  Using cached Pillow-5.0.0-cp35-cp35m-manylinux1_x86_64.whl
+Requirement already satisfied: setuptools in ./.tox/py35/lib/python3.5/site-packages (from blockdiag===1.5.3->-c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 314))
+Collecting webcolors===1.7 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 233))
+Collecting traceback2===1.4.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 132))
+  Using cached traceback2-1.4.0-py2.py3-none-any.whl
+Collecting python-mimeparse===1.6.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 89))
+  Using cached python_mimeparse-1.6.0-py2.py3-none-any.whl
+Collecting unittest2===1.1.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 180))
+  Using cached unittest2-1.1.0-py2.py3-none-any.whl
+Collecting Jinja2===2.10 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 195))
+  Using cached Jinja2-2.10-py2.py3-none-any.whl
+Collecting docutils===0.14 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 260))
+  Using cached docutils-0.14-py3-none-any.whl
+Collecting Pygments===2.2.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 189))
+  Using cached Pygments-2.2.0-py2.py3-none-any.whl
+Collecting sphinxcontrib-websupport===1.0.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 68))
+  Using cached sphinxcontrib_websupport-1.0.1-py2.py3-none-any.whl
+Collecting imagesize===0.7.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 153))
+  Using cached imagesize-0.7.1-py2.py3-none-any.whl
+Collecting alabaster===0.7.10 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 42))
+  Using cached alabaster-0.7.10-py2.py3-none-any.whl
+Collecting snowballstemmer===1.2.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 194))
+  Using cached snowballstemmer-1.2.1-py2.py3-none-any.whl
+Collecting cliff===2.11.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 216))
+Collecting oslo.serialization===2.24.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 282))
+  Using cached oslo.serialization-2.24.0-py2.py3-none-any.whl
+Collecting prettytable===0.7.2 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 129))
+Collecting dogpile.cache===0.6.4 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 378))
+Collecting osc-lib===1.9.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 356))
+Collecting iso8601===0.1.12 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 327))
+  Using cached iso8601-0.1.12-py3-none-any.whl
+Collecting debtcollector===1.19.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 108))
+  Using cached debtcollector-1.19.0-py2.py3-none-any.whl
+Collecting monotonic===1.4 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 468))
+  Using cached monotonic-1.4-py2.py3-none-any.whl
+Collecting netifaces===0.10.6 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 474))
+  Downloading netifaces-0.10.6-cp35-cp35m-manylinux1_x86_64.whl
+Collecting pyparsing===2.2.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 377))
+  Using cached pyparsing-2.2.0-py2.py3-none-any.whl
+Collecting pep8==1.5.7 (from hacking!=0.13.0,<0.14,>=0.12.0->-r /home/mnm13/nova/test-requirements.txt (line 5))
+  Using cached pep8-1.5.7-py2.py3-none-any.whl
+Collecting flake8<2.6.0,>=2.5.4 (from hacking!=0.13.0,<0.14,>=0.12.0->-r /home/mnm13/nova/test-requirements.txt (line 5))
+  Using cached flake8-2.5.5-py2.py3-none-any.whl
+Collecting pyflakes==0.8.1 (from hacking!=0.13.0,<0.14,>=0.12.0->-r /home/mnm13/nova/test-requirements.txt (line 5))
+  Using cached pyflakes-0.8.1-py2.py3-none-any.whl
+Collecting mccabe==0.2.1 (from hacking!=0.13.0,<0.14,>=0.12.0->-r /home/mnm13/nova/test-requirements.txt (line 5))
+Collecting GitPython===2.1.8 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 428))
+  Using cached GitPython-2.1.8-py2.py3-none-any.whl
+Collecting fasteners===0.14.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 517))
+  Using cached fasteners-0.14.1-py2.py3-none-any.whl
+Collecting oslo.config===5.2.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 363))
+  Using cached oslo.config-5.2.0-py2.py3-none-any.whl
+Collecting attrs===17.4.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 45))
+  Using cached attrs-17.4.0-py2.py3-none-any.whl
+Collecting pluggy===0.6.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 237))
+Collecting py===1.5.2 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 307))
+  Using cached py-1.5.2-py2.py3-none-any.whl
+Collecting jsonpath-rw===1.4.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 128))
+Collecting enum-compat===0.0.2 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 4))
+Collecting greenlet===0.4.12 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 510))
+  Using cached greenlet-0.4.12-cp35-cp35m-manylinux1_x86_64.whl
+Collecting linecache2===1.0.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 329))
+  Using cached linecache2-1.0.0-py2.py3-none-any.whl
+Collecting argparse (from unittest2===1.1.0->-c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 180))
+  Using cached argparse-1.4.0-py2.py3-none-any.whl
+Collecting MarkupSafe===1.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 113))
+Collecting cmd2===0.7.9 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 394))
+Collecting msgpack===0.5.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 361))
+  Using cached msgpack-0.5.1-cp35-cp35m-manylinux1_x86_64.whl
+Collecting simplejson===3.13.2 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 94))
+Collecting openstacksdk===0.11.3 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 411))
+  Using cached openstacksdk-0.11.3-py2.py3-none-any.whl
+Collecting wrapt===1.10.11 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 442))
+Collecting gitdb2===2.0.3 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 525))
+  Using cached gitdb2-2.0.3-py2.py3-none-any.whl
+Collecting rfc3986===1.1.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 453))
+  Using cached rfc3986-1.1.0-py2.py3-none-any.whl
+Collecting ply===3.10 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 92))
+Collecting decorator===4.2.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 496))
+  Using cached decorator-4.2.1-py2.py3-none-any.whl
+Collecting pyperclip===1.6.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 241))
+Collecting munch===2.2.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 44))
+Collecting deprecation===1.0.1 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 135))
+  Using cached deprecation-1.0.1-py3-none-any.whl
+Collecting os-service-types===1.1.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 297))
+Collecting jsonpatch===1.21 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 402))
+  Using cached jsonpatch-1.21-py2.py3-none-any.whl
+Collecting jmespath===0.9.3 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 396))
+  Using cached jmespath-0.9.3-py2.py3-none-any.whl
+Collecting smmap2===2.0.3 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 509))
+  Using cached smmap2-2.0.3-py2.py3-none-any.whl
+Collecting jsonpointer===2.0 (from -c https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt (line 119))
+  Using cached jsonpointer-2.0-py2.py3-none-any.whl
+Building wheels for collected packages: python-pcre
+  Running setup.py bdist_wheel for python-pcre: started
+  Running setup.py bdist_wheel for python-pcre: finished with status 'error'
+  Complete output from command /home/mnm13/nova/.tox/py35/bin/python3.5 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-mh1y03iq/python-pcre/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/tmpx987pdi9pip-wheel- --python-tag cp35:
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-3.5
+  copying python/pcre.py -> build/lib.linux-x86_64-3.5
+  running build_ext
+  building '_pcre' extension
+  creating build/temp.linux-x86_64-3.5
+  creating build/temp.linux-x86_64-3.5/src
+  x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.5m -I/home/mnm13/nova/.tox/py35/include/python3.5m -c src/pcremodule.c -o build/temp.linux-x86_64-3.5/src/pcremodule.o -fno-strict-aliasing
+  src/pcremodule.c:32:18: fatal error: pcre.h: No such file or directory
+  compilation terminated.
+  error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+  
+  ----------------------------------------
+  Failed building wheel for python-pcre
+  Running setup.py clean for python-pcre
+Failed to build python-pcre
+Installing collected packages: chardet, enum-compat, WebOb, funcparserlib, Pillow, webcolors, blockdiag, actdiag, MarkupSafe, Jinja2, pytz, Babel, docutils, Pygments, sphinxcontrib-websupport, imagesize, alabaster, six, idna, certifi, urllib3, requests, snowballstemmer, Sphinx, sphinxcontrib-actdiag, pbr, PyYAML, dulwich, openstackdocstheme, os-api-ref, oslo.i18n, monotonic, fasteners, netaddr, wrapt, debtcollector, rfc3986, stevedore, oslo.config, netifaces, pyparsing, iso8601, oslo.utils, oslo.concurrency, osprofiler, lxml, attrs, pluggy, py, pytest, munch, ply, decorator, jsonpath-rw, jsonpath-rw-ext, extras, linecache2, traceback2, python-mimeparse, argparse, unittest2, testtools, fixtures, ddt, psycopg2, simplejson, suds-jurko, python-subunit, testrepository, mox3, mock, appdirs, requestsexceptions, keystoneauth1, os-client-config, oslotest, jsonpointer, prettytable, deprecation, greenlet, eventlet, reno, python-pcre, whereto, requests-mock, pyperclip, cmd2, cliff, coverage, colorama, wsgi-intercept, gabbi, seqdiag, sphinxcontrib-seqdiag, future, stestr, msgpack, oslo.serialization, oslo.vmware, os-service-types, testscenarios, dogpile.cache, jsonpatch, jmespath, openstacksdk, osc-lib, PyMySQL, python-barbicanclient, testresources, smmap2, gitdb2, GitPython, jsonschema, python-ironicclient, pep8, mccabe, pyflakes, flake8, hacking, bandit
+  Running setup.py install for python-pcre: started
+    Running setup.py install for python-pcre: finished with status 'error'
+    Complete output from command /home/mnm13/nova/.tox/py35/bin/python3.5 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-mh1y03iq/python-pcre/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-sm3oq3oa-record/install-record.txt --single-version-externally-managed --compile --install-headers /home/mnm13/nova/.tox/py35/include/site/python3.5/python-pcre:
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-3.5
+    copying python/pcre.py -> build/lib.linux-x86_64-3.5
+    running build_ext
+    building '_pcre' extension
+    creating build/temp.linux-x86_64-3.5
+    creating build/temp.linux-x86_64-3.5/src
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/python3.5m -I/home/mnm13/nova/.tox/py35/include/python3.5m -c src/pcremodule.c -o build/temp.linux-x86_64-3.5/src/pcremodule.o -fno-strict-aliasing
+    src/pcremodule.c:32:18: fatal error: pcre.h: No such file or directory
+    compilation terminated.
+    error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+    
+    ----------------------------------------
+Command "/home/mnm13/nova/.tox/py35/bin/python3.5 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-mh1y03iq/python-pcre/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-sm3oq3oa-record/install-record.txt --single-version-externally-managed --compile --install-headers /home/mnm13/nova/.tox/py35/include/site/python3.5/python-pcre" failed with error code 1 in /tmp/pip-build-mh1y03iq/python-pcre/
