@@ -1,0 +1,83 @@
+Ignoring EditorConfig: markers 'python_version == "3.4"' don't match your environment
+Ignoring EditorConfig: markers 'python_version == "3.5"' don't match your environment
+Ignoring argh: markers 'python_version == "3.4"' don't match your environment
+Ignoring argh: markers 'python_version == "3.5"' don't match your environment
+Ignoring blinker: markers 'python_version == "3.4"' don't match your environment
+Ignoring blinker: markers 'python_version == "3.5"' don't match your environment
+Ignoring brotlipy: markers 'python_version == "3.4"' don't match your environment
+Ignoring brotlipy: markers 'python_version == "3.5"' don't match your environment
+Ignoring cssutils: markers 'python_version == "3.4"' don't match your environment
+Ignoring cssutils: markers 'python_version == "3.5"' don't match your environment
+Ignoring dnspython3: markers 'python_version == "3.4"' don't match your environment
+Ignoring dnspython3: markers 'python_version == "3.5"' don't match your environment
+Ignoring h2: markers 'python_version == "3.4"' don't match your environment
+Ignoring h2: markers 'python_version == "3.5"' don't match your environment
+Ignoring hpack: markers 'python_version == "3.4"' don't match your environment
+Ignoring hpack: markers 'python_version == "3.5"' don't match your environment
+Ignoring html2text: markers 'python_version == "3.4"' don't match your environment
+Ignoring html2text: markers 'python_version == "3.5"' don't match your environment
+Ignoring hyperframe: markers 'python_version == "3.4"' don't match your environment
+Ignoring hyperframe: markers 'python_version == "3.5"' don't match your environment
+Ignoring jsbeautifier: markers 'python_version == "3.4"' don't match your environment
+Ignoring jsbeautifier: markers 'python_version == "3.5"' don't match your environment
+Ignoring kaitaistruct: markers 'python_version == "3.4"' don't match your environment
+Ignoring kaitaistruct: markers 'python_version == "3.5"' don't match your environment
+Ignoring mitmproxy: markers 'python_version == "3.4"' don't match your environment
+Ignoring mitmproxy: markers 'python_version == "3.5"' don't match your environment
+Ignoring mypy: markers 'python_version == "3.4"' don't match your environment
+Ignoring mypy: markers 'python_version == "3.5"' don't match your environment
+Ignoring pathtools: markers 'python_version == "3.4"' don't match your environment
+Ignoring pathtools: markers 'python_version == "3.5"' don't match your environment
+Ignoring ruamel.yaml: markers 'python_version == "3.4"' don't match your environment
+Ignoring ruamel.yaml: markers 'python_version == "3.5"' don't match your environment
+Ignoring sortedcontainers: markers 'python_version == "3.4"' don't match your environment
+Ignoring sortedcontainers: markers 'python_version == "3.5"' don't match your environment
+Ignoring tornado: markers 'python_version == "3.4"' don't match your environment
+Ignoring tornado: markers 'python_version == "3.5"' don't match your environment
+Ignoring typed-ast: markers 'python_version == "3.4"' don't match your environment
+Ignoring typed-ast: markers 'python_version == "3.5"' don't match your environment
+Ignoring urwid: markers 'python_version == "3.4"' don't match your environment
+Ignoring urwid: markers 'python_version == "3.5"' don't match your environment
+Ignoring watchdog: markers 'python_version == "3.4"' don't match your environment
+Ignoring watchdog: markers 'python_version == "3.5"' don't match your environment
+
+
+
+Obtaining file:///opt/stack/glance
+Exception:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/usr/local/lib/python2.7/dist-packages/pip/commands/install.py", line 335, in run
+    wb.build(autobuilding=True)
+  File "/usr/local/lib/python2.7/dist-packages/pip/wheel.py", line 749, in build
+    self.requirement_set.prepare_files(self.finder)
+  File "/usr/local/lib/python2.7/dist-packages/pip/req/req_set.py", line 380, in prepare_files
+    ignore_dependencies=self.ignore_dependencies))
+  File "/usr/local/lib/python2.7/dist-packages/pip/req/req_set.py", line 521, in _prepare_file
+    req_to_install.check_if_exists()
+  File "/usr/local/lib/python2.7/dist-packages/pip/req/req_install.py", line 1036, in check_if_exists
+    self.req.name
+  File "/usr/local/lib/python2.7/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 558, in get_distribution
+    dist = get_provider(dist)
+  File "/usr/local/lib/python2.7/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 432, in get_provider
+    return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]
+  File "/usr/local/lib/python2.7/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 968, in require
+    needed = self.resolve(parse_requirements(requirements))
+  File "/usr/local/lib/python2.7/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 859, in resolve
+    raise VersionConflict(dist, req).with_context(dependent_req)
+ContextualVersionConflict: (oslo.concurrency 3.25.1 (/usr/local/lib/python2.7/dist-packages), Requirement.parse('oslo.concurrency>=3.26.0'), set(['glance-store']))
+You are using pip version 9.0.3, however version 10.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+
+glance-store 0.24.0 has requirement oslo.concurrency>=3.26.0, but you'll have oslo-concurrency 3.25.1 which is incompatible.
+openstacksdk 0.14.0 has requirement keystoneauth1>=3.7.0, but you'll have keystoneauth1 3.4.0 which is incompatible.
+oslo-vmware 2.30.0 has requirement oslo.concurrency>=3.26.0, but you'll have oslo-concurrency 3.25.1 which is incompatible.
+os-brick 2.5.1 has requirement oslo.concurrency>=3.26.0, but you'll have oslo-concurrency 3.25.1 which is incompatible.
+os-xenapi 0.3.3 has requirement oslo.concurrency>=3.26.0, but you'll have oslo-concurrency 3.25.1 which is incompatible.
+oslo-versionedobjects 1.33.3 has requirement oslo.concurrency>=3.26.0, but you'll have oslo-concurrency 3.25.1 which is incompatible.
+neutron-lib 1.17.0 has requirement oslo.concurrency>=3.26.0, but you'll have oslo-concurrency 3.25.1 which is incompatible.
+horizon 14.0.0.0b2 has requirement oslo.concurrency>=3.26.0, but you'll have oslo-concurrency 3.25.1 which is incompatible.
+python-glanceclient 2.11.1 has requirement keystoneauth1>=3.6.2, but you'll have keystoneauth1 3.4.0 which is incompatible.
+
